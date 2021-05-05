@@ -6,4 +6,5 @@ const FunctionalComponent = () => {
     )
 }
 
+
 export default FunctionalComponent
