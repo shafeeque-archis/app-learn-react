@@ -5,6 +5,5 @@ const FunctionalComponent = () => {
         <p>I am a Functional Component</p>
     )
 }
-
-
+// a test comment 
 export default FunctionalComponent
