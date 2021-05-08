@@ -6,4 +6,5 @@ const FunctionalComponent = () => {
     )
 }
 // a test comment new
+// a test comment new
 export default FunctionalComponent
