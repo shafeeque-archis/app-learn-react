@@ -9,7 +9,6 @@ function UserGreeting() {
 }
 
 const Greeting = (props) => {
-    console.log(props.isLoggedIn);
     return(
         props.isLoggedIn ? <UserGreeting /> : <GuestGreeting />
     )
