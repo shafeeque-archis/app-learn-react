@@ -6,6 +6,7 @@ import FunctionalComponent from './02_FunctionalComponent/02_FunctionalComponent
 import Clock from './Clock/Clock'
 import Button from './EventHandling/EventHandling';
 import ConditionalRendering from './ConditionalRendering/ConditionalRendering';
+import LoginControl from './ConditionalRendering/LoginControl'
 
 
 
@@ -14,15 +15,15 @@ function App() {
   
   return (
     <div className="App">
+      <LoginControl />
       <Button />
       <h1>Components</h1>
       <h2>01 Class component</h2>
       <ClassComponent name="PROP"/>
       <FunctionalComponent name="Functional component PROP"/>
       <Clock />
-      <Clock />
-      <Clock />
       <ConditionalRendering time="15" />
+      
     </div>
   );
 }

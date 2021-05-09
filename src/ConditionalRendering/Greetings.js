@@ -1,11 +1,11 @@
 import React from 'react'
 
 function UserGreeting() {
-    return <p>Welcome back User!</p>;
+    return <h1>Welcome back!</h1>;
   }
   
   function GuestGreeting() {
-    return <p>Please <a href="">sign up</a>.</p>;
+    return <h1>Please sign up.</h1>;
 }
 
 const Greeting = (props) => {

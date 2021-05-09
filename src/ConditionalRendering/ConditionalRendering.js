@@ -14,8 +14,6 @@ const ConditionalRendering = (props) => {
 
     return (
         <div>
-            <Greetings isLoggedIn={true}  />
-            <Greetings isLoggedIn={false}  />
             <h3>Hi, Mr. Shafeeque, {message} - {props.time}</h3>
             <button onClick={updateGreeting}>Update Greetings</button>
         </div>
