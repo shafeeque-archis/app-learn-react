@@ -1,0 +1,13 @@
+.is-enabled {
+    background-color: green;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+}
+
+.is-disabled {
+    background-color: red;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+}
