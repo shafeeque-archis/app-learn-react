@@ -5,10 +5,12 @@ import ClassComponent from './01_ClassComponent/01_ClassComponent';
 import FunctionalComponent from './02_FunctionalComponent/02_FunctionalComponent';
 import Clock from './Clock/Clock'
 import Button from './EventHandling/EventHandling';
+import ConditionalRendering from './ConditionalRendering/ConditionalRendering';
 
 
 
 function App() {
+  const time = new Date().getHours();
   
   return (
     <div className="App">
@@ -20,6 +22,7 @@ function App() {
       <Clock />
       <Clock />
       <Clock />
+      <ConditionalRendering time="15" />
     </div>
   );
 }
