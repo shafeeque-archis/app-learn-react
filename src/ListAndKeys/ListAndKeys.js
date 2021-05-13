@@ -2,7 +2,7 @@ import React from 'react';
 
 const ListKeys = (props) => {
     const countries = props.countries;
-    const listItems = countries.map(country => <li key={country}>{ country }</li>)
+    const listItems = countries.map((country, index) => <li key={index}>{ country }</li>)
 
     return (
         <ul> {listItems} </ul>
