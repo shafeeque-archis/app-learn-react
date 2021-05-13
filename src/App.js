@@ -8,6 +8,7 @@ import Button from './EventHandling/EventHandling';
 import ConditionalRendering from './ConditionalRendering/ConditionalRendering';
 import LoginControl from './ConditionalRendering/LoginControl';
 import Numbers from './ListAndKeys/ListAndKeys';
+import CompositionVsInheritance from './compositionVsInheritance/compositionVsInheritance';
 
 
 
@@ -25,6 +26,10 @@ function App() {
       <Clock />
       <ConditionalRendering time="15" />
       <Numbers />
+      <CompositionVsInheritance>
+        <h3>This is a Child Title</h3>
+        <p>This is a child Paragraph!</p>
+      </CompositionVsInheritance>
     </div>
   );
 }
