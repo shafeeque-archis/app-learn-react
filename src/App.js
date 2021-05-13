@@ -9,8 +9,16 @@ import ConditionalRendering from './ConditionalRendering/ConditionalRendering';
 import LoginControl from './ConditionalRendering/LoginControl';
 import Numbers from './ListAndKeys/ListAndKeys';
 import CompositionVsInheritance from './compositionVsInheritance/compositionVsInheritance';
+import CompositionVsInheritanceAnotherExample from './compositionVsInheritance/compositionVsInheritanceAnotherExample';
 
 
+function Header() {
+  return 'I am a header'
+}
+
+function Footer() {
+  return 'I am a Footer'
+}
 
 function App() {
   const time = new Date().getHours();
@@ -30,6 +38,16 @@ function App() {
         <h3>This is a Child Title</h3>
         <p>This is a child Paragraph!</p>
       </CompositionVsInheritance>
+
+      <CompositionVsInheritanceAnotherExample
+        header = {
+          <Header />
+        }
+
+        footer = {
+          <Footer />
+        }
+      />
     </div>
   );
 }
