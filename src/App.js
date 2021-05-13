@@ -6,7 +6,8 @@ import FunctionalComponent from './02_FunctionalComponent/02_FunctionalComponent
 import Clock from './Clock/Clock'
 import Button from './EventHandling/EventHandling';
 import ConditionalRendering from './ConditionalRendering/ConditionalRendering';
-import LoginControl from './ConditionalRendering/LoginControl'
+import LoginControl from './ConditionalRendering/LoginControl';
+import Numbers from './ListAndKeys/ListAndKeys';
 
 
 
@@ -23,7 +24,7 @@ function App() {
       <FunctionalComponent name="Functional component PROP"/>
       <Clock />
       <ConditionalRendering time="15" />
-      
+      <Numbers />
     </div>
   );
 }
