@@ -10,6 +10,7 @@ import LoginControl from './ConditionalRendering/LoginControl';
 import Numbers from './ListAndKeys/ListAndKeys';
 import CompositionVsInheritance from './compositionVsInheritance/compositionVsInheritance';
 import CompositionVsInheritanceAnotherExample from './compositionVsInheritance/compositionVsInheritanceAnotherExample';
+import Hooks from './Hooks/Hooks';
 
 
 function Header() {
@@ -48,6 +49,9 @@ function App() {
           <Footer />
         }
       />
+      
+      <hr />
+      <Hooks />
     </div>
   );
 }
