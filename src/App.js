@@ -11,6 +11,8 @@ import Numbers from './ListAndKeys/ListAndKeys';
 import CompositionVsInheritance from './compositionVsInheritance/compositionVsInheritance';
 import CompositionVsInheritanceAnotherExample from './compositionVsInheritance/compositionVsInheritanceAnotherExample';
 import Hooks from './Hooks/Hooks';
+import SimpleForm from './Form/Form'
+import SimpleFormSelect from './Form/FormSelect';
 
 
 function Header() {
@@ -52,6 +54,10 @@ function App() {
       
       <hr />
       <Hooks />
+
+      <hr />
+      <SimpleForm />
+      <SimpleFormSelect />
     </div>
   );
 }

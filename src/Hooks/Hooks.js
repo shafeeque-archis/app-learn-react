@@ -22,11 +22,12 @@ const Hooks = () => {
 
     return (
         <div>
+            <p>Update document title</p>
             <input { ...name }/>
             <br />
             <input { ...surname } />
             <br />
-            {width}
+            <p>window width is, resize widow to change me : {width}</p>
         </div>
     )
 }
